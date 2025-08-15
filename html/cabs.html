@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Booking</title>
+    <link rel="stylesheet" type="text/css"  href="../css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="buses.html " target="_blank">Buses</a>
+        <a href="cabs.html" target="_blank">Cabs</a>
+        <a href="trains.html" target="_blank">Trains</a>
+        <a href="flights.html" target="_blank">Flights</a>
+        <a href="hotels.html" target="_blank">Hotels</a>
+         <a href="login.html" target="_blank">Login</a>
+        <a href="feedback.html" target="_blank">Feedback</a>
+    </nav>
+    <section>
+    <h2>Cab Booking</h2>
+    <p>Book your cab with us and enjoy the best deals and offers.</p>
+    <label for="pickup">Pickup Location:</label>
+    <input type="text" id="pickup" name="pickup" required>
+    <label for="dropoff">Drop-off Location:</label>
+    <input type="text" id="dropoff" name="dropoff" required>    
+    <label for="pickup-date">Pickup Date:</label>
+    <input type="date" id="pickup-date" name="pickup-date" required>
+    <label for="pickup-time">Pickup Time:</label>
+    <input type="time" id="pickup-time" name="pickup-time" required>
+    <label for="cab-type">Cab Type:</label>
+    <select id="cab-type" name="cab-type" required>
+        <option value="sedan">Sedan</option>
+        <option value="suv">SUV</option>
+        <option value="luxury">Luxury</option>
+    </select>
+    <label for="passengers">Number of Passengers:</label>
+    <input type="number" id="passengers" name="passengers" min="1" max="5" required>
+    <p>
+    <button type="submit">Book Cab</button>
+    </p>
+    <p>Enjoy your ride with us!</p>
+    </section>
+
+</body>
+</html>
